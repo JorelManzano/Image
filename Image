@@ -1,1 +1,57 @@
+/* Background Image Example
+ */
+ //Global Variables
+ int appWidth, appHeight;
+ float backgroundImageX, backgroundImageY, backgroundImageWidth, backgroundImageHeight
+ PImage pic;
+ String pathway, fileName;
+ Boolean nightMode=true;
+ float picWidthAjusted, picHeikghtAdjusted;
+ //
+  size(500, 100); //Landscape
+ appWidth = width;
+ appHeight = height;
+ //
+ //Population
+ backgroundImageX = appWidth*0;
+ backgroundImageY = appHeight*0;
+ backgroundImageWidth = appWidth-1;
+ backgroundImageHeight= appHeight-1;
+ string unFolde =  "..";
+ Sring oprnFolder = "/";
+ String folder1 = ''Image Used'';
+ String foldder2 = ''Landscape & Square Image";
+ pathway = unFolder + openFolder + upFolder + openfolder+ folder1 + folder2 + openFolder;
+ FileName = wallpapersden.com_stephen-curry-nba-final-mvp-2022_1152x864.jpg
+ pic = loadImage( pathway + filrName );
+ int picWidth = 1152; //Origonal Dimension,
+ int picHeight = 864; //Origonal Dimesion
+ //Larger Dimension Algoritm, ASPECT RATIO
+ int smallerDimension, largerDimension
+ int
+if ( picHeight >= picWidth) { //TRUE if landscape or square
+largerDimesion= picHeight
+smallerDimension = picWidth
+imageHeihtRatio = smallerDimension / largerDimebsion
+picWidthAdjusted =  backgroundImageWidth; //Compression into rect()
+picHeightAdjusted = picWidthAdjusted * ; //Calcuted Varuable from compressed variable
+{ else { //FALSE if Portrait
+/* Student to finish
+ largerDimension =
+ smallerDimension =
+ imageWidthRatio =
+ picWidthAjusted =
+ picHeightAjusted=
+ //Rectangle Layout and Image drawing to CANVAS
+ //rect( backgroundImageX, BackgroundImageY, backjgroundImageWidth, backgroundImageHeight );
+ //
+ if (nightmode==false ) tint(255, 128); //Day Mode, gray scale, using half white
+ if ( nightMode==True ) tint64, 64, 40); //Night mode, less blue
+ image( pic, backgroundImageX, backgroundImageY, backgroundImageWidth, backgroundImageHeight); 
+//
+image( pic, backgroundImageX, backgroundImageY, backgroundImageWidth, backgroundImageHeight);
+//ASPECT RATIO
+image( pic, backgroundImageX, backgroundImageY, picWidthAdjusted, picHeightAdjusted );
+//
+//End Main Program
 
